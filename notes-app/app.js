@@ -1,4 +1,9 @@
-const fs = require('fs')
+const getNotes = require('./notes.js')
 
-// fs.writeFileSync('notes.txt', 'My name is Serhii.')
-fs.appendFileSync('notes.txt', '\nI\'m 48 years old.')
+const msg = getNotes()
+
+console.log(msg)
+
+// const add = require('./utils.js')
+// const sum = add(4, -2)
+// console.log(sum)
