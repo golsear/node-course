@@ -9,6 +9,7 @@ console.log(msg)
 console.log(validator.isEmail('serhii@test.com'))
 console.log(validator.isURL('test.com'))
 console.log(chalk.green.bold.inverse('Success!'))
+console.log(chalk.red.bold.inverse('Error!'))
 
 // const add = require('./utils.js')
 // const sum = add(4, -2)
