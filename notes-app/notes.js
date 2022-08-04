@@ -7,6 +7,9 @@ const addNote = (title, body) => {
     const notes = loadNotes()
     const duplicateNote = notes.find((note) => note.title === title)
 
+    // node inspect app.js add --title='t' --body='b'
+    // debugger
+
     if (!duplicateNote) {
         notes.push({
             title: title,
